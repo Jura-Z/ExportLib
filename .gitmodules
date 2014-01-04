@@ -1,0 +1,3 @@
+[submodule "ExportLib/External/tinyxml2"]
+	path = ExportLib/External/tinyxml2
+	url = git@github.com:leethomason/tinyxml2.git

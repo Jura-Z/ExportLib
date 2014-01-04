@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE62FA01878897E00EF1589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62F9F1878897E00EF1589 /* Foundation.framework */; };
+		CFE62FAE1878897E00EF1589 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62FAD1878897E00EF1589 /* XCTest.framework */; };
+		CFE62FAF1878897E00EF1589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62F9F1878897E00EF1589 /* Foundation.framework */; };
+		CFE62FB11878897E00EF1589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62FB01878897E00EF1589 /* UIKit.framework */; };
+		CFE62FB41878897E00EF1589 /* libExportStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62F9C1878897E00EF1589 /* libExportStaticLib.a */; };
+		CFE62FBA1878897E00EF1589 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFE62FB81878897E00EF1589 /* InfoPlist.strings */; };
+		CFE62FBC1878897E00EF1589 /* ExportStaticLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FBB1878897E00EF1589 /* ExportStaticLibTests.m */; };
+		CFE62FD5187889AF00EF1589 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCA187889AF00EF1589 /* tinystr.cpp */; };
+		CFE62FD6187889AF00EF1589 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCA187889AF00EF1589 /* tinystr.cpp */; };
+		CFE62FD7187889AF00EF1589 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCC187889AF00EF1589 /* tinyxml.cpp */; };
+		CFE62FD8187889AF00EF1589 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCC187889AF00EF1589 /* tinyxml.cpp */; };
+		CFE62FD9187889AF00EF1589 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCE187889AF00EF1589 /* tinyxmlerror.cpp */; };
+		CFE62FDA187889AF00EF1589 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCE187889AF00EF1589 /* tinyxmlerror.cpp */; };
+		CFE62FDB187889AF00EF1589 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCF187889AF00EF1589 /* tinyxmlparser.cpp */; };
+		CFE62FDC187889AF00EF1589 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FCF187889AF00EF1589 /* tinyxmlparser.cpp */; };
+		CFE62FDD187889AF00EF1589 /* WDLayersHierarchy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FD1187889AF00EF1589 /* WDLayersHierarchy.cpp */; };
+		CFE62FDE187889AF00EF1589 /* WDLayersHierarchy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FD1187889AF00EF1589 /* WDLayersHierarchy.cpp */; };
+		CFE62FE6187889FA00EF1589 /* ExportStaticLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FE5187889FA00EF1589 /* ExportStaticLib.cpp */; };
+		CFE62FE7187889FA00EF1589 /* ExportStaticLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE62FE5187889FA00EF1589 /* ExportStaticLib.cpp */; };
+		CFE6302B18788B0800EF1589 /* ExportStaticLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFE62FE1187889DA00EF1589 /* ExportStaticLib.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE62FB21878897E00EF1589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE62F941878897D00EF1589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE62F9B1878897E00EF1589;
+			remoteInfo = ExportStaticLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFE62F9A1878897E00EF1589 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CFE6302B18788B0800EF1589 /* ExportStaticLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFE62F9C1878897E00EF1589 /* libExportStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExportStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE62F9F1878897E00EF1589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFE62FAC1878897E00EF1589 /* ExportStaticLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExportStaticLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE62FAD1878897E00EF1589 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFE62FB01878897E00EF1589 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFE62FB71878897E00EF1589 /* ExportStaticLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExportStaticLibTests-Info.plist"; sourceTree = "<group>"; };
+		CFE62FB91878897E00EF1589 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFE62FBB1878897E00EF1589 /* ExportStaticLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportStaticLibTests.m; sourceTree = "<group>"; };
+		CFE62FCA187889AF00EF1589 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		CFE62FCB187889AF00EF1589 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		CFE62FCC187889AF00EF1589 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		CFE62FCD187889AF00EF1589 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		CFE62FCE187889AF00EF1589 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		CFE62FCF187889AF00EF1589 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		CFE62FD1187889AF00EF1589 /* WDLayersHierarchy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WDLayersHierarchy.cpp; sourceTree = "<group>"; };
+		CFE62FD2187889AF00EF1589 /* WDLayersHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDLayersHierarchy.h; sourceTree = "<group>"; };
+		CFE62FE0187889DA00EF1589 /* ExportStaticLib-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExportStaticLib-Prefix.pch"; sourceTree = "<group>"; };
+		CFE62FE1187889DA00EF1589 /* ExportStaticLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportStaticLib.h; sourceTree = "<group>"; };
+		CFE62FE5187889FA00EF1589 /* ExportStaticLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExportStaticLib.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE62F991878897E00EF1589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE62FA01878897E00EF1589 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE62FA91878897E00EF1589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE62FAE1878897E00EF1589 /* XCTest.framework in Frameworks */,
+				CFE62FB11878897E00EF1589 /* UIKit.framework in Frameworks */,
+				CFE62FAF1878897E00EF1589 /* Foundation.framework in Frameworks */,
+				CFE62FB41878897E00EF1589 /* libExportStaticLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE62F931878897D00EF1589 = {
+			isa = PBXGroup;
+			children = (
+				CFE62FDF187889DA00EF1589 /* ExportStaticLib */,
+				CFE62FC8187889AF00EF1589 /* External */,
+				CFE62FD0187889AF00EF1589 /* WDExport */,
+				CFE62FB51878897E00EF1589 /* ExportStaticLibTests */,
+				CFE62F9E1878897E00EF1589 /* Frameworks */,
+				CFE62F9D1878897E00EF1589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE62F9D1878897E00EF1589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62F9C1878897E00EF1589 /* libExportStaticLib.a */,
+				CFE62FAC1878897E00EF1589 /* ExportStaticLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE62F9E1878897E00EF1589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62F9F1878897E00EF1589 /* Foundation.framework */,
+				CFE62FAD1878897E00EF1589 /* XCTest.framework */,
+				CFE62FB01878897E00EF1589 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFE62FB51878897E00EF1589 /* ExportStaticLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FBB1878897E00EF1589 /* ExportStaticLibTests.m */,
+				CFE62FB61878897E00EF1589 /* Supporting Files */,
+			);
+			path = ExportStaticLibTests;
+			sourceTree = "<group>";
+		};
+		CFE62FB61878897E00EF1589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FB71878897E00EF1589 /* ExportStaticLibTests-Info.plist */,
+				CFE62FB81878897E00EF1589 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFE62FC8187889AF00EF1589 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FC9187889AF00EF1589 /* tinyxml */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		CFE62FC9187889AF00EF1589 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FCA187889AF00EF1589 /* tinystr.cpp */,
+				CFE62FCB187889AF00EF1589 /* tinystr.h */,
+				CFE62FCC187889AF00EF1589 /* tinyxml.cpp */,
+				CFE62FCD187889AF00EF1589 /* tinyxml.h */,
+				CFE62FCE187889AF00EF1589 /* tinyxmlerror.cpp */,
+				CFE62FCF187889AF00EF1589 /* tinyxmlparser.cpp */,
+			);
+			path = tinyxml;
+			sourceTree = "<group>";
+		};
+		CFE62FD0187889AF00EF1589 /* WDExport */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FD1187889AF00EF1589 /* WDLayersHierarchy.cpp */,
+				CFE62FD2187889AF00EF1589 /* WDLayersHierarchy.h */,
+			);
+			path = WDExport;
+			sourceTree = "<group>";
+		};
+		CFE62FDF187889DA00EF1589 /* ExportStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				CFE62FE5187889FA00EF1589 /* ExportStaticLib.cpp */,
+				CFE62FE0187889DA00EF1589 /* ExportStaticLib-Prefix.pch */,
+				CFE62FE1187889DA00EF1589 /* ExportStaticLib.h */,
+			);
+			path = ExportStaticLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE62F9B1878897E00EF1589 /* ExportStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE62FBF1878897E00EF1589 /* Build configuration list for PBXNativeTarget "ExportStaticLib" */;
+			buildPhases = (
+				CFE62F981878897E00EF1589 /* Sources */,
+				CFE62F991878897E00EF1589 /* Frameworks */,
+				CFE62F9A1878897E00EF1589 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExportStaticLib;
+			productName = ExportStaticLib;
+			productReference = CFE62F9C1878897E00EF1589 /* libExportStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CFE62FAB1878897E00EF1589 /* ExportStaticLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE62FC21878897E00EF1589 /* Build configuration list for PBXNativeTarget "ExportStaticLibTests" */;
+			buildPhases = (
+				CFE62FA81878897E00EF1589 /* Sources */,
+				CFE62FA91878897E00EF1589 /* Frameworks */,
+				CFE62FAA1878897E00EF1589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE62FB31878897E00EF1589 /* PBXTargetDependency */,
+			);
+			name = ExportStaticLibTests;
+			productName = ExportStaticLibTests;
+			productReference = CFE62FAC1878897E00EF1589 /* ExportStaticLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE62F941878897D00EF1589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Plawius;
+			};
+			buildConfigurationList = CFE62F971878897D00EF1589 /* Build configuration list for PBXProject "ExportStaticLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFE62F931878897D00EF1589;
+			productRefGroup = CFE62F9D1878897E00EF1589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE62F9B1878897E00EF1589 /* ExportStaticLib */,
+				CFE62FAB1878897E00EF1589 /* ExportStaticLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE62FAA1878897E00EF1589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE62FBA1878897E00EF1589 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE62F981878897E00EF1589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE62FD9187889AF00EF1589 /* tinyxmlerror.cpp in Sources */,
+				CFE62FE6187889FA00EF1589 /* ExportStaticLib.cpp in Sources */,
+				CFE62FD7187889AF00EF1589 /* tinyxml.cpp in Sources */,
+				CFE62FDB187889AF00EF1589 /* tinyxmlparser.cpp in Sources */,
+				CFE62FDD187889AF00EF1589 /* WDLayersHierarchy.cpp in Sources */,
+				CFE62FD5187889AF00EF1589 /* tinystr.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE62FA81878897E00EF1589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE62FBC1878897E00EF1589 /* ExportStaticLibTests.m in Sources */,
+				CFE62FE7187889FA00EF1589 /* ExportStaticLib.cpp in Sources */,
+				CFE62FD8187889AF00EF1589 /* tinyxml.cpp in Sources */,
+				CFE62FD6187889AF00EF1589 /* tinystr.cpp in Sources */,
+				CFE62FDA187889AF00EF1589 /* tinyxmlerror.cpp in Sources */,
+				CFE62FDC187889AF00EF1589 /* tinyxmlparser.cpp in Sources */,
+				CFE62FDE187889AF00EF1589 /* WDLayersHierarchy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE62FB31878897E00EF1589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE62F9B1878897E00EF1589 /* ExportStaticLib */;
+			targetProxy = CFE62FB21878897E00EF1589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFE62FB81878897E00EF1589 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE62FB91878897E00EF1589 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE62FBD1878897E00EF1589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFE62FBE1878897E00EF1589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE62FC01878897E00EF1589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ExportStaticLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExportStaticLib/ExportStaticLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFE62FC11878897E00EF1589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ExportStaticLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExportStaticLib/ExportStaticLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CFE62FC31878897E00EF1589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExportStaticLib/ExportStaticLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExportStaticLibTests/ExportStaticLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFE62FC41878897E00EF1589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExportStaticLib/ExportStaticLib-Prefix.pch";
+				INFOPLIST_FILE = "ExportStaticLibTests/ExportStaticLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE62F971878897D00EF1589 /* Build configuration list for PBXProject "ExportStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE62FBD1878897E00EF1589 /* Debug */,
+				CFE62FBE1878897E00EF1589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE62FBF1878897E00EF1589 /* Build configuration list for PBXNativeTarget "ExportStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE62FC01878897E00EF1589 /* Debug */,
+				CFE62FC11878897E00EF1589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE62FC21878897E00EF1589 /* Build configuration list for PBXNativeTarget "ExportStaticLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE62FC31878897E00EF1589 /* Debug */,
+				CFE62FC41878897E00EF1589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE62F941878897D00EF1589 /* Project object */;
+}
