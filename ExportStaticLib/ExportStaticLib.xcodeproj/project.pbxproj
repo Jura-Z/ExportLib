@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF5C92E5187E0A9700A3935C /* WDExportCocos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF5C92E3187E0A9700A3935C /* WDExportCocos.cpp */; };
 		CFE62FA01878897E00EF1589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62F9F1878897E00EF1589 /* Foundation.framework */; };
 		CFE62FAE1878897E00EF1589 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62FAD1878897E00EF1589 /* XCTest.framework */; };
 		CFE62FAF1878897E00EF1589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE62F9F1878897E00EF1589 /* Foundation.framework */; };
@@ -53,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF5C92E3187E0A9700A3935C /* WDExportCocos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WDExportCocos.cpp; sourceTree = "<group>"; };
+		CF5C92E4187E0A9700A3935C /* WDExportCocos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDExportCocos.h; sourceTree = "<group>"; };
 		CFE62F9C1878897E00EF1589 /* libExportStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExportStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE62F9F1878897E00EF1589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CFE62FAC1878897E00EF1589 /* ExportStaticLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExportStaticLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF5C92E2187E0A9600A3935C /* cocos2d-x */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C92E3187E0A9700A3935C /* WDExportCocos.cpp */,
+				CF5C92E4187E0A9700A3935C /* WDExportCocos.h */,
+			);
+			path = "cocos2d-x";
+			sourceTree = "<group>";
+		};
 		CFE62F931878897D00EF1589 = {
 			isa = PBXGroup;
 			children = (
+				CF5C92E2187E0A9600A3935C /* cocos2d-x */,
 				CFE62FDF187889DA00EF1589 /* ExportStaticLib */,
 				CFE62FC8187889AF00EF1589 /* External */,
 				CFE62FD0187889AF00EF1589 /* WDExport */,
@@ -270,6 +283,7 @@
 				CFE62FD9187889AF00EF1589 /* tinyxmlerror.cpp in Sources */,
 				CFE62FE6187889FA00EF1589 /* ExportStaticLib.cpp in Sources */,
 				CFE62FD7187889AF00EF1589 /* tinyxml.cpp in Sources */,
+				CF5C92E5187E0A9700A3935C /* WDExportCocos.cpp in Sources */,
 				CFE62FDB187889AF00EF1589 /* tinyxmlparser.cpp in Sources */,
 				CFE62FDD187889AF00EF1589 /* WDLayersHierarchy.cpp in Sources */,
 				CFE62FD5187889AF00EF1589 /* tinystr.cpp in Sources */,
@@ -463,6 +477,7 @@
 				CFE62FC11878897E00EF1589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE62FC21878897E00EF1589 /* Build configuration list for PBXNativeTarget "ExportStaticLibTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +486,7 @@
 				CFE62FC41878897E00EF1589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
